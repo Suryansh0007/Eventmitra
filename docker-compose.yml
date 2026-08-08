@@ -1,0 +1,93 @@
+services:
+  notification-service:
+    build:
+      context: ./EventMitra.NotificationService
+      dockerfile: EventMitra.NotificationService/Dockerfile
+    container_name: eventmitra-notification-service
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT:-Production}
+      ASPNETCORE_URLS: http://+:5224
+      ConnectionStrings__DefaultConnection: server=${MYSQL_HOST:-host.docker.internal};port=${MYSQL_PORT:-3306};database=${MYSQL_DATABASE:-eventmitra};user=${MYSQL_USER:-root};password=${MYSQL_PASSWORD:-Root@12345};
+      EmailSettings__SenderEmail: ${EMAIL_SENDER_EMAIL:-eventmitraproject@gmail.com}
+      EmailSettings__SenderName: ${EMAIL_SENDER_NAME:-EventMitra}
+      EmailSettings__Password: ${EMAIL_PASSWORD:-vqpmbimdofddmnof}
+      EmailSettings__Host: ${EMAIL_HOST:-smtp.gmail.com}
+      EmailSettings__Port: ${EMAIL_PORT:-587}
+    ports:
+      - "${NOTIFICATION_PORT:-5224}:5224"
+    networks:
+      - eventmitra-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:5224/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  backend:
+    build:
+      context: ./EventMitra
+      dockerfile: Dockerfile
+    container_name: eventmitra-backend
+    restart: unless-stopped
+    environment:
+      SERVER_PORT: 8080
+      SPRING_DATASOURCE_URL: jdbc:mysql://${MYSQL_HOST:-host.docker.internal}:${MYSQL_PORT:-3306}/${MYSQL_DATABASE:-eventmitra}?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${MYSQL_USER:-root}
+      SPRING_DATASOURCE_PASSWORD: ${MYSQL_PASSWORD:-Root@12345}
+      SPRING_JPA_HIBERNATE_DDL_AUTO: ${SPRING_JPA_HIBERNATE_DDL_AUTO:-update}
+      SPRING_JPA_SHOW_SQL: ${SPRING_JPA_SHOW_SQL:-false}
+      APP_JWT_SECRET: ${APP_JWT_SECRET:-ThisIsMyVeryLongSecretKeyForEventMitraProjectJWTAuthentication2026SpringBootJava}
+      APP_JWT_EXPIRATION_MS: ${APP_JWT_EXPIRATION_MS:-86400000}
+      APP_UPLOAD_DIR: /app/uploads/events
+      NOTIFICATION_SERVICE_URL: http://notification-service:5224
+      RAZORPAY_KEY_ID: ${RAZORPAY_KEY_ID:-rzp_test_TI6rCJwBGYLkIz}
+      RAZORPAY_KEY_SECRET: ${RAZORPAY_KEY_SECRET:-VF73ux9iKOBOfo86FXtK3SKN}
+      RAZORPAY_CURRENCY: ${RAZORPAY_CURRENCY:-INR}
+      SPRING_AI_OPENAI_API_KEY: ${SPRING_AI_OPENAI_API_KEY:-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}
+      SPRING_AI_OPENAI_BASE_URL: ${SPRING_AI_OPENAI_BASE_URL:-https://api.groq.com/openai}
+      SPRING_AI_OPENAI_CHAT_OPTIONS_MODEL: ${SPRING_AI_OPENAI_CHAT_OPTIONS_MODEL:-llama-3.3-70b-versatile}
+      APP_BOOTSTRAP_ADMIN_ENABLED: ${APP_BOOTSTRAP_ADMIN_ENABLED:-false}
+      APP_BOOTSTRAP_ADMIN_EMAIL: ${APP_BOOTSTRAP_ADMIN_EMAIL:-admin@eventmitra.local}
+      APP_BOOTSTRAP_ADMIN_PASSWORD: ${APP_BOOTSTRAP_ADMIN_PASSWORD:-Admin@12345}
+      APP_BOOTSTRAP_ADMIN_FULL_NAME: ${APP_BOOTSTRAP_ADMIN_FULL_NAME:-EventMitra Admin}
+      APP_BOOTSTRAP_ADMIN_MOBILE_NUMBER: ${APP_BOOTSTRAP_ADMIN_MOBILE_NUMBER:-9999999999}
+    ports:
+      - "${BACKEND_PORT:-8080}:8080"
+    volumes:
+      - eventmitra-uploads:/app/uploads/events
+    depends_on:
+      notification-service:
+        condition: service_healthy
+    networks:
+      - eventmitra-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8080/actuator/health | grep -q UP"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  frontend:
+    build:
+      context: ./eventmitra-frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-/api/backend}
+    container_name: eventmitra-frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-3000}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - eventmitra-network
+
+networks:
+  eventmitra-network:
+    driver: bridge
+
+volumes:
+  eventmitra-uploads:

@@ -1,0 +1,95 @@
+{
+  "info": {
+    "name": "EventMitra REST API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key": "baseUrl", "value": "http://localhost:8080"},
+    {"key": "token", "value": ""}
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [{"key": "token", "value": "{{token}}", "type": "string"}]
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "url": "{{baseUrl}}/auth/register",
+            "body": {"mode": "raw", "raw": "{\"fullName\":\"Admin User\",\"email\":\"admin@example.com\",\"mobileNumber\":\"9999999999\",\"password\":\"Password@123\",\"role\":\"ADMIN\"}"}
+          }
+        },
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "url": "{{baseUrl}}/auth/login",
+            "body": {"mode": "raw", "raw": "{\"email\":\"admin@example.com\",\"password\":\"Password@123\"}"}
+          }
+        }
+      ]
+    },
+    {
+      "name": "OTP",
+      "item": [
+        {"name": "Send OTP", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/otp/send", "body": {"mode": "raw", "raw": "{\"email\":\"admin@example.com\"}"}}},
+        {"name": "Verify OTP", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/otp/verify", "body": {"mode": "raw", "raw": "{\"email\":\"admin@example.com\",\"otp\":\"123456\"}"}}}
+      ]
+    },
+    {
+      "name": "Users",
+      "item": [
+        {"name": "Create User", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/users", "body": {"mode": "raw", "raw": "{\"fullName\":\"Organizer User\",\"email\":\"organizer@example.com\",\"mobileNumber\":\"8888888888\",\"password\":\"Password@123\",\"role\":\"ORGANIZER\"}"}}},
+        {"name": "Get Users", "request": {"method": "GET", "url": "{{baseUrl}}/users"}},
+        {"name": "Get User", "request": {"method": "GET", "url": "{{baseUrl}}/users/1"}},
+        {"name": "Update User", "request": {"method": "PUT", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/users/1", "body": {"mode": "raw", "raw": "{\"fullName\":\"Updated User\",\"email\":\"admin@example.com\",\"mobileNumber\":\"9999999999\",\"password\":\"Password@123\",\"role\":\"ADMIN\"}"}}},
+        {"name": "Delete User", "request": {"method": "DELETE", "url": "{{baseUrl}}/users/1"}}
+      ]
+    },
+    {
+      "name": "Events",
+      "item": [
+        {"name": "Create Event", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/events", "body": {"mode": "raw", "raw": "{\"eventName\":\"Tech Summit\",\"description\":\"Annual tech event\",\"eventDate\":\"2026-12-01\",\"startTime\":\"10:00:00\",\"endTime\":\"18:00:00\",\"location\":\"Bengaluru\",\"category\":\"TECH\",\"status\":\"UPCOMING\",\"organizerId\":1}"}}},
+        {"name": "Get Events", "request": {"method": "GET", "url": "{{baseUrl}}/events"}},
+        {"name": "Get Event", "request": {"method": "GET", "url": "{{baseUrl}}/events/1"}},
+        {"name": "Update Event", "request": {"method": "PUT", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/events/1", "body": {"mode": "raw", "raw": "{\"eventName\":\"Tech Summit 2026\",\"description\":\"Updated\",\"eventDate\":\"2026-12-01\",\"startTime\":\"10:00:00\",\"endTime\":\"18:00:00\",\"location\":\"Bengaluru\",\"category\":\"TECH\",\"status\":\"UPCOMING\",\"organizerId\":1}"}}},
+        {"name": "Delete Event", "request": {"method": "DELETE", "url": "{{baseUrl}}/events/1"}},
+        {"name": "By Category", "request": {"method": "GET", "url": "{{baseUrl}}/events/category/TECH"}},
+        {"name": "By Location", "request": {"method": "GET", "url": "{{baseUrl}}/events/location/Bengaluru"}},
+        {"name": "By Organizer", "request": {"method": "GET", "url": "{{baseUrl}}/events/organizer/1"}}
+      ]
+    },
+    {
+      "name": "Tickets",
+      "item": [
+        {"name": "Create Ticket", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/tickets", "body": {"mode": "raw", "raw": "{\"ticketName\":\"VIP\",\"price\":3000,\"totalQuantity\":100,\"availableQuantity\":100,\"eventId\":1}"}}},
+        {"name": "Get Tickets", "request": {"method": "GET", "url": "{{baseUrl}}/tickets"}},
+        {"name": "Get Ticket", "request": {"method": "GET", "url": "{{baseUrl}}/tickets/1"}},
+        {"name": "Update Ticket", "request": {"method": "PUT", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/tickets/1", "body": {"mode": "raw", "raw": "{\"ticketName\":\"VIP\",\"price\":3000,\"totalQuantity\":100,\"availableQuantity\":90,\"eventId\":1}"}}},
+        {"name": "Delete Ticket", "request": {"method": "DELETE", "url": "{{baseUrl}}/tickets/1"}},
+        {"name": "By Event", "request": {"method": "GET", "url": "{{baseUrl}}/tickets/event/1"}}
+      ]
+    },
+    {
+      "name": "Bookings Payments Receipts Refunds",
+      "item": [
+        {"name": "Create Booking", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/bookings", "body": {"mode": "raw", "raw": "{\"numberOfTickets\":2,\"attendeeId\":2,\"eventId\":1,\"ticketId\":1}"}}},
+        {"name": "Get Bookings", "request": {"method": "GET", "url": "{{baseUrl}}/bookings"}},
+        {"name": "Create Razorpay Order", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/payments/create-order", "body": {"mode": "raw", "raw": "{\"bookingId\":1}"}}},
+        {"name": "Verify Payment", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/payments/verify", "body": {"mode": "raw", "raw": "{\"bookingId\":1,\"razorpayOrderId\":\"order_xxx\",\"razorpayPaymentId\":\"pay_xxx\",\"razorpaySignature\":\"signature_xxx\"}"}}},
+        {"name": "Get Payments", "request": {"method": "GET", "url": "{{baseUrl}}/payments"}},
+        {"name": "Get Receipts", "request": {"method": "GET", "url": "{{baseUrl}}/receipts"}},
+        {"name": "Request Refund", "request": {"method": "POST", "header": [{"key": "Content-Type", "value": "application/json"}], "url": "{{baseUrl}}/refunds/request/1", "body": {"mode": "raw", "raw": "{\"reason\":\"Unable to attend\"}"}}},
+        {"name": "Get Requested Refunds", "request": {"method": "GET", "url": "{{baseUrl}}/refunds/requested"}},
+        {"name": "Approve Refund", "request": {"method": "PUT", "url": "{{baseUrl}}/refunds/approve/1"}},
+        {"name": "Reject Refund", "request": {"method": "PUT", "url": "{{baseUrl}}/refunds/reject/1"}}
+      ]
+    }
+  ]
+}

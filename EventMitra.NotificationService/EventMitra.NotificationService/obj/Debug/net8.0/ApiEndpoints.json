@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "EventMitra.NotificationService.Controllers.NotificationController",
+    "Method": "AuditLog",
+    "RelativePath": "api/Notification/audit-log",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EventMitra.NotificationService.DTOs.AuditLogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventMitra.NotificationService.Controllers.NotificationController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Notification/send-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EventMitra.NotificationService.DTOs.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventMitra.NotificationService.Controllers.NotificationController",
+    "Method": "SendOtp",
+    "RelativePath": "api/Notification/send-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EventMitra.NotificationService.DTOs.SendOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventMitra.NotificationService.Controllers.NotificationController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/Notification/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EventMitra.NotificationService.DTOs.VerifyOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

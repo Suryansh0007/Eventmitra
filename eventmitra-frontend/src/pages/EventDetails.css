@@ -1,0 +1,146 @@
+.em-details-page {
+  padding: 32px 24px 60px;
+}
+
+.em-details-top {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 28px;
+}
+
+/* Works for both <img> and <div> */
+.em-details-hero {
+  width: 100%;
+  height: 260px;
+  display: block;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background: linear-gradient(135deg, #1e1e3f, #6a1fc2 55%, #ed1e63);
+  overflow: hidden;
+}
+
+.em-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.em-details-info h1 {
+  margin: 10px 0 14px;
+  font-size: 38px;
+  line-height: 1.2;
+  color: var(--text-dark);
+}
+
+.em-details-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  color: var(--text-gray);
+  margin-bottom: 16px;
+}
+
+.em-details-desc {
+  color: var(--text-gray);
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 650px;
+}
+
+.em-ticket-card {
+  padding: 24px;
+}
+
+.em-ticket-card h3 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.em-ticket-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+}
+
+.em-ticket-row:first-of-type {
+  border-top: none;
+}
+
+.em-ticket-name {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.em-ticket-sub {
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.em-qty-stepper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.em-qty-stepper button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.em-qty-stepper button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.em-qty-stepper span {
+  min-width: 18px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.em-ticket-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.em-total {
+  font-size: 15px;
+  color: var(--text-gray);
+}
+
+.em-total strong {
+  color: var(--pink-dark);
+  font-size: 18px;
+}
+
+@media (max-width: 900px) {
+  .em-details-top {
+    grid-template-columns: 1fr;
+  }
+
+  .em-details-hero {
+    height: 280px;
+  }
+
+  .em-details-info h1 {
+    font-size: 30px;
+  }
+}

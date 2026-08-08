@@ -1,0 +1,104 @@
+.em-navbar {
+  background: var(--navy);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.em-navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 66px;
+  gap: 24px;
+}
+
+.em-logo {
+  color: #fff;
+  font-weight: 800;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.em-logo-mark {
+  color: var(--pink);
+}
+
+.em-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex: 1;
+  justify-content: center;
+}
+
+.em-nav-links a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14.5px;
+  font-weight: 500;
+  padding: 6px 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.em-nav-links a.active,
+.em-nav-links a:hover {
+  color: #fff;
+  border-bottom-color: var(--pink);
+}
+
+.em-navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.em-navbar-actions .btn-outline {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.em-navbar-actions .btn-outline:hover {
+  border-color: var(--pink);
+  color: var(--pink);
+}
+
+.em-user-pill {
+  color: #fff;
+  font-size: 13.5px;
+  margin-right: 4px;
+}
+
+.em-burger {
+  display: none;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+@media (max-width: 860px) {
+  .em-nav-links {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    background: var(--navy);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 14px;
+    display: none;
+  }
+  .em-nav-links.open {
+    display: flex;
+  }
+  .em-burger {
+    display: block;
+  }
+  .em-navbar-actions {
+    display: none;
+  }
+}

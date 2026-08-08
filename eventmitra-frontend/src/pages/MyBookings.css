@@ -1,0 +1,40 @@
+.em-mybookings-page {
+  padding: 30px 24px 60px;
+}
+
+.em-mybookings-table-wrap {
+  overflow-x: auto;
+  padding: 6px;
+}
+
+.em-mybookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  min-width: 720px;
+}
+
+.em-mybookings-table th {
+  text-align: left;
+  color: var(--text-gray);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.em-mybookings-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.em-mybookings-table tr:last-child td {
+  border-bottom: none;
+}
+
+.em-mybookings-actions {
+  display: flex;
+  gap: 8px;
+}

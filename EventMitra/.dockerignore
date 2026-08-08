@@ -1,0 +1,11 @@
+target
+frontend
+EventMitra
+postman
+uploads
+.settings
+.classpath
+.factorypath
+.project
+package-lock.json
+*.log

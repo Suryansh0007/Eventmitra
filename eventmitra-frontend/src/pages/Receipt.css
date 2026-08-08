@@ -1,0 +1,88 @@
+.receipt-page {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.receipt-card {
+  width: 100%;
+  max-width: 750px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.receipt-header {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.receipt-header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.receipt-header h3 {
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.receipt-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.receipt-section {
+  padding: 30px;
+}
+
+.receipt-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.receipt-row span {
+  color: #555;
+  font-weight: 500;
+}
+
+.receipt-row strong {
+  color: #111827;
+}
+
+.success {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.receipt-footer {
+  text-align: center;
+  padding: 25px;
+  background: #f8fafc;
+  border-top: 1px solid #e5e7eb;
+}
+
+.receipt-footer p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.receipt-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px;
+}
+
+.receipt-actions button,
+.receipt-actions a {
+  min-width: 170px;
+}

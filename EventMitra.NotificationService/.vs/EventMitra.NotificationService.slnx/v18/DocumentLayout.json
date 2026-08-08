@@ -1,0 +1,368 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\dtos\\auditlogrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\dtos\\auditlogrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Migrations\\20260805131616_AddCreatedAtToOtp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventMitra.NotificationService\\Migrations\\20260805131616_AddCreatedAtToOtp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\models\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\models\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\dtos\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\dtos\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\dtos\\sendotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\dtos\\sendotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\dtos\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\migrations\\20260805114837_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\migrations\\20260805114837_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\eventmitra.notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\eventmitra.notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|c:\\users\\suryansh\\desktop\\suryanshdotnet\\eventmitra.notificationservice\\eventmitra.notificationservice\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6E681A-8656-4EA5-985D-415DB1D61CE0}|EventMitra.NotificationService\\EventMitra.NotificationService.csproj|solutionrelative:eventmitra.notificationservice\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EventMitra.NotificationService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-05T13:48:47.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Services\\AuditService.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Services\\AuditService.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Services\\AuditService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:32:53.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Interfaces\\IAuditService.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Interfaces\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:32:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuditLogRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\AuditLogRequest.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\DTOs\\AuditLogRequest.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\AuditLogRequest.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\DTOs\\AuditLogRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:31:54.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Services\\OtpService.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Services\\OtpService.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Services\\OtpService.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Services\\OtpService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:18:27.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOtpService.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Interfaces\\IOtpService.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Interfaces\\IOtpService.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Interfaces\\IOtpService.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Interfaces\\IOtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:17:22.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260805131616_AddCreatedAtToOtp.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Migrations\\20260805131616_AddCreatedAtToOtp.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Migrations\\20260805131616_AddCreatedAtToOtp.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Migrations\\20260805131616_AddCreatedAtToOtp.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Migrations\\20260805131616_AddCreatedAtToOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:16:16.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VerifyOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\VerifyOtpRequest.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\DTOs\\VerifyOtpRequest.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\VerifyOtpRequest.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\DTOs\\VerifyOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:14:23.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SendOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\SendOtpRequest.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\DTOs\\SendOtpRequest.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\SendOtpRequest.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\DTOs\\SendOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:13:57.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T13:07:29.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Services\\EmailService.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Services\\EmailService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T12:08:15.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T12:07:48.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\DTOs\\EmailRequest.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\DTOs\\EmailRequest.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\DTOs\\EmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T12:07:24.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260805114837_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Migrations\\20260805114837_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Migrations\\20260805114837_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Migrations\\20260805114837_InitialCreate.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Migrations\\20260805114837_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T11:48:37.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Program.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Program.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Program.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T11:43:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\appsettings.json",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\appsettings.json",
+              "RelativeToolTip": "EventMitra.NotificationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-05T11:41:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Models\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Models\\AuditLog.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T11:41:30.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Otp.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Models\\Otp.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Models\\Otp.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Models\\Otp.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Models\\Otp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T11:41:03.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EventMitra.NotificationService\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T11:40:19.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventMitra.NotificationService",
+              "DocumentMoniker": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\EventMitra.NotificationService.csproj",
+              "RelativeDocumentMoniker": "EventMitra.NotificationService\\EventMitra.NotificationService.csproj",
+              "ToolTip": "C:\\Users\\Suryansh\\Desktop\\SuryanshDotNet\\EventMitra.NotificationService\\EventMitra.NotificationService\\EventMitra.NotificationService.csproj",
+              "RelativeToolTip": "EventMitra.NotificationService\\EventMitra.NotificationService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-05T11:32:17.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

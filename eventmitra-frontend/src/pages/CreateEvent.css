@@ -1,0 +1,175 @@
+/* ===== Page ===== */
+
+.create-event-page {
+    background: #f5f7fb;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+/* ===== Card ===== */
+
+.create-event-card {
+    max-width: 950px;
+    margin: auto;
+    background: #fff;
+    border-radius: 18px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+/* ===== Header ===== */
+
+.page-header {
+    margin-bottom: 35px;
+}
+
+.page-header h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 8px;
+}
+
+.page-header p {
+    color: #6c757d;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* ===== Section ===== */
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d6efd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+/* ===== Form ===== */
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #343a40;
+}
+
+.form-control,
+.form-select {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    transition: all .25s ease;
+}
+
+textarea.form-control {
+    height: auto;
+    min-height: 130px;
+    resize: vertical;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 .18rem rgba(13,110,253,.15);
+}
+
+/* ===== Upload ===== */
+
+.upload-box {
+    border: 2px dashed #0d6efd;
+    border-radius: 14px;
+    padding: 35px;
+    background: #f8fbff;
+    text-align: center;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.upload-box:hover {
+    background: #eef5ff;
+}
+
+.upload-box input[type=file] {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.upload-box p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 15px;
+}
+
+/* ===== Image Preview ===== */
+
+.preview-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.preview-image {
+    max-width: 100%;
+    max-height: 280px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 6px 18px rgba(0,0,0,.12);
+}
+
+/* ===== Button ===== */
+
+.button-container {
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-container .btn {
+    padding: 12px 42px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .25s;
+}
+
+.button-container .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(13,110,253,.25);
+}
+
+/* ===== Bootstrap Row Gap ===== */
+
+.row {
+    row-gap: 10px;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+
+    .create-event-page {
+        padding: 20px 12px;
+    }
+
+    .create-event-card {
+        padding: 25px;
+    }
+
+    .page-header h2 {
+        font-size: 28px;
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+
+    .button-container .btn {
+        width: 100%;
+    }
+}

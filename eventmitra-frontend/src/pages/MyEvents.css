@@ -1,0 +1,16 @@
+.container {
+    margin-top: 30px;
+}
+
+table {
+    background: white;
+}
+
+th,
+td {
+    vertical-align: middle;
+}
+
+.btn-sm {
+    margin-right: 5px;
+}
