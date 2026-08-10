@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980" role="img" aria-labelledby="title desc">
+  <title id="title">EventMitra Use Case Diagram</title>
+  <desc id="desc">Use case diagram for EventMitra with human actor icons for Attendee, Organizer, and Admin.</desc>
+  <defs>
+    <style>
+      .page{fill:#f7f7f7}.boundary{fill:#fff;stroke:#303030;stroke-width:2}.title{font:700 19px Arial,sans-serif;fill:#303030;text-anchor:middle}.actor{stroke:#303030;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round;fill:none}.actor-label{font:700 15px Arial,sans-serif;fill:#303030;text-anchor:middle}.use{fill:#fff;stroke:#303030;stroke-width:2}.use-text{font:700 14px Arial,sans-serif;fill:#303030;text-anchor:middle;dominant-baseline:middle}.line{stroke:#606060;stroke-width:2;fill:none;marker-end:url(#solidArrow)}.assoc{stroke:#606060;stroke-width:2;fill:none}.dash{stroke:#666;stroke-width:2;stroke-dasharray:8 8;fill:none;marker-end:url(#dashArrow)}.note{font:700 20px Georgia,serif;fill:#303030;text-anchor:middle}
+    </style>
+    <marker id="solidArrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 z" fill="#606060"/>
+    </marker>
+    <marker id="dashArrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <rect class="page" width="1500" height="980"/>
+  <rect class="boundary" x="205" y="135" width="1180" height="760"/>
+  <text class="title" x="795" y="155">EVENTMITRA SYSTEM</text>
+
+  <g id="attendee" transform="translate(80 305)">
+    <circle class="actor" cx="0" cy="-54" r="14"/>
+    <path class="actor" d="M0,-40 L0,28 M-43,-12 L43,-12 M0,28 L-36,72 M0,28 L36,72"/>
+    <text class="actor-label" x="0" y="112">ATTENDEE</text>
+  </g>
+  <g id="organizer" transform="translate(80 625)">
+    <circle class="actor" cx="0" cy="-54" r="14"/>
+    <path class="actor" d="M0,-40 L0,28 M-43,-12 L43,-12 M0,28 L-36,72 M0,28 L36,72"/>
+    <text class="actor-label" x="0" y="112">ORGANIZER</text>
+  </g>
+  <g id="admin" transform="translate(80 800)">
+    <circle class="actor" cx="0" cy="-54" r="14"/>
+    <path class="actor" d="M0,-40 L0,28 M-43,-12 L43,-12 M0,28 L-36,72 M0,28 L36,72"/>
+    <text class="actor-label" x="0" y="112">ADMIN</text>
+  </g>
+
+  <ellipse id="browse" class="use" cx="350" cy="205" rx="83" ry="27"/>
+  <text class="use-text" x="350" y="205">Browse Events</text>
+
+  <ellipse id="book" class="use" cx="350" cy="292" rx="77" ry="27"/>
+  <text class="use-text" x="350" y="292">Book Tickets</text>
+
+  <ellipse id="refund" class="use" cx="350" cy="379" rx="83" ry="27"/>
+  <text class="use-text" x="350" y="379">Request Refund</text>
+
+  <ellipse id="otp" class="use" cx="350" cy="466" rx="73" ry="27"/>
+  <text class="use-text" x="350" y="466">Verify OTP</text>
+
+  <ellipse id="auth" class="use" cx="350" cy="553" rx="88" ry="27"/>
+  <text class="use-text" x="350" y="553">Register / Login</text>
+
+  <ellipse id="pay" class="use" cx="850" cy="205" rx="90" ry="27"/>
+  <text class="use-text" x="850" y="205">Pay Via Razorpay</text>
+
+  <ellipse id="receipt" class="use" cx="1285" cy="205" rx="92" ry="27"/>
+  <text class="use-text" x="1285" y="205">Receive Receipt</text>
+
+  <ellipse id="orgdash" class="use" cx="350" cy="642" rx="125" ry="27"/>
+  <text class="use-text" x="350" y="642">View Organizer Dashboard</text>
+
+  <ellipse id="ai" class="use" cx="350" cy="728" rx="88" ry="27"/>
+  <text class="use-text" x="350" y="728">Ask AI Assistant</text>
+
+  <ellipse id="events" class="use" cx="350" cy="812" rx="155" ry="27"/>
+  <text class="use-text" x="350" y="812">Create / Update / Delete Events</text>
+
+  <ellipse id="tickets" class="use" cx="350" cy="873" rx="92" ry="27"/>
+  <text class="use-text" x="350" y="873">Manage Tickets</text>
+
+  <ellipse id="adminManage" class="use" cx="850" cy="770" rx="180" ry="27"/>
+  <text class="use-text" x="850" y="770">Manage Users / Refunds / Payments</text>
+
+  <path class="line" d="M123,260 C178,230 245,210 267,207"/>
+  <path class="line" d="M123,280 C185,290 245,292 273,292"/>
+  <path class="line" d="M123,304 C185,345 250,374 268,377"/>
+  <path class="line" d="M123,327 C185,405 263,455 278,462"/>
+  <path class="line" d="M123,350 C175,470 260,540 263,550"/>
+  <path class="assoc" d="M82,232 C110,35 600,-10 1285,178"/>
+  <path class="assoc" d="M82,244 C120,100 470,80 850,178"/>
+
+  <path class="line" d="M123,678 C190,655 255,646 225,646"/>
+  <path class="line" d="M123,697 C178,710 260,724 263,727"/>
+  <path class="line" d="M123,720 C178,780 245,807 198,809"/>
+  <path class="line" d="M123,742 C175,830 260,864 258,868"/>
+  <path class="line" d="M123,690 C180,600 260,560 263,555"/>
+
+  <path class="line" d="M123,827 C178,790 245,745 264,734"/>
+  <path class="line" d="M123,845 C180,820 250,814 195,812"/>
+  <path class="line" d="M123,860 C185,872 250,873 258,873"/>
+  <path class="line" d="M123,878 C250,950 610,865 690,785"/>
+  <path class="line" d="M123,807 C180,690 260,570 263,556"/>
+
+  <path class="dash" d="M427,292 C560,270 675,235 762,213"/>
+  <text class="note" x="613" y="259">after booking</text>
+  <path class="dash" d="M940,205 C1055,205 1160,205 1193,205"/>
+  <text class="note" x="1110" y="188">on success</text>
+  <path class="dash" d="M428,390 C565,465 715,645 795,743"/>
+  <text class="note" x="595" y="450">review</text>
+</svg>

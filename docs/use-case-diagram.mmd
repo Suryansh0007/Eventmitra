@@ -1,0 +1,45 @@
+flowchart LR
+    attendee["Attendee"]
+    organizer["Organizer"]
+    admin["Admin"]
+
+    subgraph system["EventMitra System"]
+        browse(("Browse Events"))
+        book(("Book Tickets"))
+        refund(("Request Refund"))
+        otp(("Verify OTP"))
+        auth(("Register / Login"))
+        pay(("Pay Via Razorpay"))
+        receipt(("Receive Receipt"))
+
+        orgDashboard(("View Organizer Dashboard"))
+        ai(("Ask AI Assistant"))
+        events(("Create / Update / Delete Events"))
+        tickets(("Manage Tickets"))
+
+        adminManage(("Manage Users / Refunds / Payments"))
+    end
+
+    attendee --- browse
+    attendee --- book
+    attendee --- refund
+    attendee --- otp
+    attendee --- auth
+    attendee --- pay
+    attendee --- receipt
+
+    organizer --- auth
+    organizer --- orgDashboard
+    organizer --- ai
+    organizer --- events
+    organizer --- tickets
+
+    admin --- auth
+    admin --- ai
+    admin --- events
+    admin --- tickets
+    admin --- adminManage
+
+    book -. "after booking" .-> pay
+    pay -. "on success" .-> receipt
+    refund -. "review" .-> adminManage
